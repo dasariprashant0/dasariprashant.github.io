@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: 1px solid black; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 70px 0px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 100px 100px;
+    gap: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 195px 80px;
+    background: linear-gradient(90deg, #eb3349, #f45c43);
+}
+
+.heading1 {
+    color: #fff;
+}
+
+.txt1 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn1 {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 11px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #eb3349;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.side-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.box {
+    border: none;
+    background-color: rgb(211,209,209);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    width: 320px;
+    border-radius:30px;
+}
+
+.box:focus{
+    outline: none;
+}
+
+.btn {
+    padding: 12px 140px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #eb3349, #f45c43);
+}
+
+.btn:hover {
+    border: 1px solid #eb3349;
+    color: #eb3349;
+    background: none;
+    cursor: pointer;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 15px;
+}
+
+.txt {
+    font-size: 15px;
+    color: #eb3349;
+}
+
+.check {
+    accent-color: #eb3349;
+}
+
+@media screen and (max-width:930px) {
+    .login {
+        flex-direction: column-reverse;
+    }
+    .welcome {
+        padding: 65px 100px;
+    }
+}

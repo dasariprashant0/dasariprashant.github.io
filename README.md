@@ -3,7 +3,6 @@
 <h3 align="center">Frontend Web Developer</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dasariprashant0&label=Profile%20views&color=0e75b6&style=flat" alt="dasariprashant0" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dasariprashant0&theme=" alt="dasariprashant0" /></a> </p>
 
 - 🔭 I’m currently working on [Realtor-Clone-App](https://github.com/dasariprashant0/React-Realtor-App)
 - 🌱 I’m currently learning **gsap, webflow, ThreeJs, AnimeJs, NextJs**
